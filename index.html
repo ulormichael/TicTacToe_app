@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="banner">
+      <h1>TIC TAC TOE</h1>
+    </div>
+    <div id="options">
+      <p>Choose your option</p>
+      <button id="x">X</button>
+      <button id="o">0</button>
+    </div>
+    <div id="choice">
+      <p id="choiceMsg"></p>
+    </div>
+    <table id="game">
+      <tr>
+        <td id="one" data-value="1">
+          <div class="up-dots">
+            <i class="fa fa-dot-circle-o pull-right"></i>
+          </div>
+          <div class="center-space"></div>
+          <div class="down-dots">
+            <i class="fa fa-dot-circle-o pull-left"></i>
+            <i class="fa fa-dot-circle-o pull-right"></i>
+          </div>
+        </td>
+        <td id="two" data-value="2">
+          <div class="placeholder"></div>
+          <div class="center-space"></div>
+          <div class="placeholder"></div>
+        </td>
+        <td id="three" data-value="3">
+          <div class="up-dots">
+            <i class="fa fa-dot-circle-o pull-left"></i>
+          </div>
+          <div class="center-space"></div>
+          <div class="down-dots">
+            <i class="fa fa-dot-circle-o pull-left"></i>
+            <i class="fa fa-dot-circle-o pull-right"></i>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td id="four" data-value="4">
+          <div class="placeholder"></div>
+          <div class="center-space"></div>
+          <div class="placeholder"></div>
+        </td>
+        <td id="five" data-value="5">
+          <div class="placeholder"></div>
+          <div class="center-space"></div>
+          <div class="placeholder"></div>
+        </td>
+        <td id="six" data-value="6">
+          <div class="placeholder"></div>
+          <div class="center-space"></div>
+          <div class="placeholder"></div>
+        </td>
+      </tr>
+      <tr>
+        <td id="seven" data-value="7">
+          <div class="down-dots">
+            <i class="fa fa-dot-circle-o pull-left"></i>
+            <i class="fa fa-dot-circle-o pull-right"></i>
+          </div>
+          <div class="center-space"></div>
+          <div class="up-dots">
+            <i class="fa fa-dot-circle-o pull-right"></i>
+          </div>
+        </td>
+        <td id="eight" data-value="8">
+          <div class="placeholder"></div>
+          <div class="center-space"></div>
+          <div class="placeholder"></div>
+        </td>
+        <td id="nine" data-value="9">
+            <div class="placeholder"></div>
+            <div class="center-space"></div>
+            <div class="placeholder"></div>
+          </td>
+      </tr>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
